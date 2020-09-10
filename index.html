@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Home Page</title>
+    <!--Link Icon Title-->
+    <!--    <link href="img/favicon.png" rel="icon">-->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="dist/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+
+    <!--font google-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700" rel="stylesheet">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+    <!-- vendor min  css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/vendor.min.css">
+
+    <!-- min styles -->
+    <link rel="stylesheet" type="text/css" href="dist/css/min.min.css">
+</head>
+<body>
+<!--loading pages-->
+<div class="ff d-flex text-center m-auto align-items-center">
+
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+        Loading.....
+    </div>
+
+</div><!--end of loading-->
+
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<section id="banner">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white font-weight-bold pl-2" href="/">STRATEGIC MIND</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse col-auto " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#about">About Us</a>
+                        <a class="dropdown-item" href="#Our-Service">Our Service</a>
+                        <!--                        <a class="dropdown-item" href="#">Our Customers</a>-->
+                        <a class="dropdown-item" href="#Event">Our Event</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Article">Public Calender <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Training Course
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-info">Register
+                            Courses</a>
+                        <a class="dropdown-item" href="AllCourse.html">All Course</a>
+                        <a class="dropdown-item" href="#">Training Program</a>
+                        <a class="dropdown-item" href="#">Free Course</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        knowledge
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Tools</a>
+                        <a class="dropdown-item" href="video.html">Video Clies</a>
+                    </div>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="#footer">contact Us <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <a href="login.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user"></i> Login</a>
+                <a href="Register.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user-plus"></i>
+                    Register</a>
+            </ul>
+        </div>
+    </nav><!--end of navbar-->
+
+    <div class="skitter-large-box">
+        <div class="skitter skitter-large with-dots">
+            <ul>
+                <li><a href="#cubeRandom"><img src="./dist/images/skitter/111.png" class="cubeRandom"/></a>
+                    <div class="label_text"></div>
+                </li>
+                <li><a href="#block"><img src="./dist/images/skitter/112.png" class="block"/></a>
+                    <div class="label_text"></div>
+                </li>
+                <li><a href="#cubeStop"><img src="./dist/images/skitter/113.PNG" class="cubeStop"/></a>
+                    <div class="label_text"></div>
+                </li>
+            </ul>
+        </div>
+    </div><!--end of skitter-->
+
+</section> <!--end of banner section-->
+
+<section id="about" class="bg-primary">
+    <div class="container text-center text-white p-4">
+        <h2>ABOUT US</h2>
+        <p class="wow bounceInDown" data-wow-duration="1s">Strategic Mind Center was founded in 2020. More than a
+            decade
+            of our staff experience, we are specializing
+            and unique Center in Strategic programs and one of the country's well respected consultant companies in
+            training and business development. Strategic Center provides More than 80 Training Programs in strategic
+            management techniques, Business management & HR, Capacity Building and Quality management system for people
+            development and process improvement. training have allowed us to continuously improve our understanding,
+            thus able to deliver services that would exceed our customer expectation. By providing training innovation
+            and leading edge solutions, Strategic Mind Center has continuously assisted our corporate customers improve
+            their business process and enhance their position amidst the competitive environment.
+        </p>
+    </div><!--end of container-->
+</section><!-- Jquery -->
+
+<section id="current-programs" class="text-center">
+
+    <h2 class="p-4">CURRENT PROGRAMS</h2>
+
+    <div class="owl-carousel owl-poster wow bounceInLeft" data-wow-duration="10s">
+        <div class="poster">
+            <img src="./dist/images/11.png" width="80%" height="460" alt="">
+            <p class="bg-success text-white ">online Course</p>
+        </div><!--end of poster-->
+        <div class="poster">
+            <img src="./dist/images/121.jpg" height="460" alt="">
+            <p class="bg-dark text-white ">online Course</p>
+        </div><!--end of poster-->
+        <div class="poster">
+            <img src="./dist/images/12.jpg" width="80%" height="460" alt="">
+            <p class="bg-primary text-white ">online Course</p>
+        </div><!--end of poster-->
+        <div class="poster">
+            <img src="./dist/images/12.jpg" width="80%" height="460" alt="">
+            <p class="bg-danger text-white ">online Course</p>
+        </div><!--end of poster -->
+    </div><!--end of owl-carousel-->
+
+</section><!--end section current programs-->
+
+<section id="Our-Trainer" class="text-center p-4 bg-dark text-white">
+    <h2>OUR TRAINER</h2>
+    <div class="owl-carousel owl-trainer pt-4 wow bounceInDown" data-wow-duration="4s">
+
+        <div class="trainer">
+            <img src="./dist/images/avatar.png" class="m" alt="">
+            <h3>Ali Hassan Ali</h3>
+            <p>we are specializing and unique Center in Strategic programs and one of the country's well respected
+                consultant companies in training and business developmentwe are specializing and unique Center in
+                Strategic
+                programs and one of the country's well respected consultant companies in training and business
+                development</p>
+        </div><!--end of trainer-->
+
+        <div class="trainer">
+            <img src="./dist/images/avatar.png" class="m" width="10%" alt="">
+            <h3>Ali Hassan Ali</h3>
+            <p>we are specializing and unique Center in Strategic programs and one of the country's well respected
+                consultant companies in training and business developmentwe are specializing and unique Center in
+                Strategic
+                programs and one of the country's well respected consultant companies in training and business
+                development</p>
+        </div><!--end of trainer-->
+
+    </div><!--end of owl-carousel-->
+</section><!--end section Our-Trainer-->
+
+<section id="Our-Service" class="text-center text-white bg-primary">
+
+    <h2 class="pt-3 text-white">OUR SERVICE</h2>
+
+    <div class="row text-center pl-4" style="width: 100%">
+
+        <div class="col-12 col-md-3 mb-4 wow bounceInRight" data-wow-duration="2s">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Trainning</h3>
+                    <p>Strategic Mind Center provides More than 80 Training Programs in strategic
+                        management techniques, Business management &amp; HR, Marketing and sales, Capacity Building and
+                        Quality management system for people development and process improvement. Our professional
+                        Trainer able to deliver programs that would exceed our customer expectation. </p>
+                </div><!--end of card body-->
+            </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-3 mb-4 wow bounceInUp" data-wow-duration="2s">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Coaching</h3>
+                    <p>Strategic Mind Center provides all Coaching Levels Programs according to
+                        standard school or Arabization one in strategic management, intuitional excellence, life, school
+                        and family coaching. Also provide individual coaching and sections to increase personal
+                        targeting and objectives by Our professional coaching Trainer to exceed our customer expectation
+                        and needs</p>
+                </div><!--end of card body-->
+            </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-3 mb-4 wow bounceInDown" data-wow-duration="2s">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Counsaltant</h3>
+                    <p>Strategic Mind Center provides consulting rather individually or to
+                        organization and businessunits in some filed like:- Systems Building and preparing to
+                        Accreditation- Strategic Planning &amp; Formulation - In door training and training needs-
+                        Self-Assessment and EFQM Deployment - Institutional and Strategic Coaching - Others By
+                        professional coaching &amp; Expert from Sudan and collaboration &amp; our successful partnership
+                        worldwide to meet and exceed our customer expectation in order to achieve targeting and
+                        objectives
+                    </p>
+                </div><!--end of card body-->
+            </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-3 mb-4 wow bounceInLeft" data-wow-duration="2s">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Research &amp; Studies</h3>
+                    <p>Strategic Mind Center provides Research and studies to organization and
+                        business units in some filed like:- Visibilities studies - Market research and studies- Trend
+                        measurement and perception - Customers and employee satisfaction - Applied and theoretical
+                        research and problem solving- Data analysis and support - Others By professional coaching &amp;
+                        Experts from Sudan and collaboration by our successful partnership worldwide
+                    </p>
+                </div><!--end of card body-->
+            </div><!--end of card-->
+        </div><!--end of col-->
+
+    </div><!--end of row-->
+
+</section><!--end of section Our-Service-->
+
+<section id="Article" class="pt-5 mb-0" style="background: black">
+    <div class="container">
+
+        <h2 class="text-center text-white pb-4">PUBLIC CALENDER</h2>
+
+        <div class="col-md-12 p-0">
+            <!-- Box Comment -->
+            <div class="box box-widget p-0">
+                <div class="box-header with-border">
+                    <div class="user-block">
+                        <img class="img-circle m" src="./dist/images/avatar.png" alt="User Image">
+                        <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
+                        <span class="description">Shared publicly - 7:30 PM Today</span>
+                    </div>
+                </div><!--end of box-header-->
+
+                <div class="box-body wow bounceInDown" data-wow-duration="3s">
+                    <p>
+                        took this photo this morning. What do you guys think? took this photo this morning. What do you
+                        guys think? took this photo this morning. What do you guys think? took this photo this morning.
+                        What do you
+                        guys think? took this photo this morning. What do you guys think? took this photo this morning.
+                        What do you
+                        guys think? took this photo this morning. What do you guys think? took this photo this morning.
+                        What do you
+                        guys think?
+                    </p>
+                    <img class="img-responsive pad" src="./dist/images/post/mind.jpg" width="100%" alt="Photo">
+
+                    <p>I took this photo this morning. What do you guys think?</p>
+                    <button type="button" class="btn btn-outline-dark btn-xs"><i class="fa fa-thumbs-o-down"></i>
+                        DisLike
+                    </button>
+                    <button type="button" class="btn btn-outline-dark btn-xs"><i class="fa fa-thumbs-o-up"></i> Like
+                    </button>
+                    <span class="pull-right text-muted">127 likes - 3 comments</span>
+                </div><!--end of box-body-->
+
+                <div class="box-footer box-comments" style="">
+                    <div class="box-comment wow bounceInUp" data-wow-duration="3s">
+                        <!-- User image -->
+                        <img class="img-circle img-sm m" src="./dist/images/event/118.jpg" alt="User Image">
+
+                        <div class="comment-text">
+                      <span class="username">
+                        Maria Gonzales
+                        <span class="text-muted pull-right">8:03 PM Today</span>
+                      </span><!-- /.username -->
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                        </div>
+                        <!-- /.comment-text -->
+                    </div>
+                    <!-- /.box-comment -->
+                    <div class="box-comment wow bounceInUp" data-wow-duration="3s">
+                        <img class="img-circle img-sm m" src="./dist/images/avatar.png" alt="User Image">
+                        <div class="comment-text">
+                      <span class="username">
+                        Luna Stark
+                        <span class="text-muted pull-right">8:03 PM Today</span>
+                      </span><!-- /.username -->
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                        </div>
+                    </div><!--end of box-comments-->
+
+                </div><!--end of box-comments-->
+
+                <div class="box-footer">
+                    <form action="#" method="post">
+                        <img class="img-responsive img-circle img-sm"
+                             style="border-radius: 50%; border: 1 solid #fff; "
+                             src="./dist/images/avatar.png"
+                             alt="Alt Text">
+                        <!-- .img-push is used to add margin to elements next to floating images -->
+                        <div class="img-push">
+                            <input type="text" class="form-control input-sm" placeholder="Press enter to post comment">
+                        </div>
+                    </form>
+                </div><!--end of box-footer-->
+
+            </div><!--end of box-widget-->
+
+        </div><!--end of col-->
+
+    </div><!--end of container-->
+    <div class="container">
+        <a href="Articles.html" class="btn btn-info btn-xs col-12">See All</a>
+    </div>
+
+</section><!--end of poster-->
+
+<section id="Event" class="bg-dark pb-5">
+    <h2 class="text-center p-4 text-white">THIS EVENT</h2>
+    <div class="col-12">
+        <div class="row d-flex align-items-center justify-content-center wow bounce" data-wow-duration="4s">
+            <div class="image m-2">
+                <img src="./dist/images/event/112.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/118.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/114.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/115.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/118.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/116.jpg" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/212.png" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description</p>
+            </div>
+            <div class="image m-2">
+                <img src="./dist/images/event/212.png" width="350" height="250" class="p-2 border" alt="this event">
+                <p class="text-white text-center" style="width: 350px">description description description
+                    description
+                    description
+                    description description description</p>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of col-12-->
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <a href="" class="btn btn-primary btn-xs col-12 col-sm-12 mt-3 wow bounceIn" data-wow-duration="7s">All
+            Event</a>
+    </div>
+
+</section><!--end of event-->
+
+<section id="footer-newsletter" class="text-white pb-2 p-4" style="background: black">
+    <div class="container wow bounceIn" data-wow-duration="3s">
+        <h2 class="text-center">OUR NEWSIETTER</h2>
+        <form action="" method="post">
+            <div class="form-group">
+                <label>Description</label>
+                <textarea name="" rows="4" type="text" class="form-control"
+                          placeholder="Enter description"></textarea>
+                <button type="submit" class="btn btn-info col-md-12" style="margin-top: 15px">Submit
+                </button>
+            </div>
+        </form>
+    </div><!--end of container-->
+</section><!--end of section -->
+
+<footer id="footer" class="bg-dark text-white pt-0 p-4 pb-0">
+
+    <h2 class="text-center pb-4">CONTACT US</h2>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 wow bounceInLeft" data-wow-duration="4s"><h3><i class="fa fa-eye mr-2"></i>Strategic
+                Mind</h3>
+                <p>Strategic Mind Center was founded in 2020. Strategic Center provides More than 80 Training
+                    Programs in strategic management techniques, Business management &amp; HR, Capacity Building and
+                    Quality management system for people development and process improvement. training have allowed
+                    us to continuously improve our understanding, thus able to deliver services that would exceed
+                    our customer expectation. By providing training innovation and leading edge solutions, to
+                    improve our customer’s business process and enhance their position amidst the competitive
+                    environment.</p>
+            </div><!--end of col-->
+
+
+            <div class="col-lg-6 col-md-6 footer-contact wow bounceInRight" data-wow-duration="4s">
+                <h4>Contact Us</h4>
+                <p>SUDAN - KHARTOUM</p>
+                <p><i class="fa fa-map-marker mr-2"></i>Mohammed Najeeb Street <br>
+                    Weast Ibn Sina hospital , Moluk building <br>
+                    third flour , apartement 2 <br>
+                    <strong><i class="fa fa-phone mr-2"></i> Phone:</strong> +249 0912905226 - +249123853358<br>
+                    <strong><i class="fa fa-envelope mr-2"></i> Email:</strong> strategic2020@gmail.com<br>
+                    <strong><i class="fa fa-whatsapp mr-2"></i> Whatsapp:</strong> +249 123853358<br><br>
+                </p>
+
+            </div><!--end of col-->
+
+        </div><!--end of row-->
+
+    </div><!--end of container-->
+
+</footer>   <!--end of footer-->
+
+<section class="bg-primary text-center p-3">
+    <a href="" class="text-white mr-2"><i class="fa fa-facebook fa-1x fa-2x wow flip" data-wow-duration="5s"></i></a>
+    <a href="" class="text-white mr-2"><i class="fa fa-youtube-play fa-2x wow flip" data-wow-duration="5s"></i></a>
+    <a href="" class="text-white mr-2"><i class="fa fa-twitter fa-2x wow flip" data-wow-duration="5s"></i></a>
+</section><!--end og mulite meduy-->
+
+
+<script src="dist/js/jquery-3.3.1.min.js"></script>
+
+<!-- bootstrap -->
+<script src="dist/js/bootstrap.min.js"></script>
+
+<!-- vendor  js -->
+<script src="dist/js/vendor.min.js"></script>
+
+<!-- min scripts -->
+<!--<script src="dist/js/main.min.js"></script>-->
+<script>
+    wow = new WOW(
+        {
+            // boxClass:     'wow',      // default
+            // animateClass: 'animated', // default
+            offset: 3,          // default
+            mobile: true,       // default
+            live: true        // default
+            // data-wow-iteration="2" /*Loop*/
+        },
+    );
+    wow.init();
+</script>
+<script src="src/js/script.js"></script>
+
+</body>
+</html>

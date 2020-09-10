@@ -1,0 +1,119 @@
+@import "../Bootstrap/functions";
+@import "../Bootstrap/variables";
+@import "pages/index";
+@import "pages/login";
+@import "pages/loding";
+@import "pages/post";
+@import "pages/allcourse";
+
+body {
+  font-family: 'Cairo', sans-serif;
+  //overflow: hidden;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/*end of body*/
+
+#banner {
+
+  .active {
+    background: #263980;
+    padding: 17px 8px 16px 8px;
+    margin: 0;
+  }
+
+  /*class active*/
+
+  .navbar {
+
+    padding: 0;
+    font-size: 18px;
+
+    .navbar-brand {
+      font-size: 37px;
+      padding: 0;
+    }
+
+    .nav-link:hover {
+      background: #263980;
+      padding: 17px 8px 16px 8px;
+      transition: all 1.1s;
+    }
+
+    .nav-link {
+      color: white;
+      padding: 17px 8px 16px 8px;
+    }
+
+    .dropdown-menu {
+      background: #5387af;
+      padding: 0;
+      margin-top: 0px;
+    }
+
+    .dropdown-item {
+      color: white;
+    }
+
+    .dropdown-item:hover {
+      background: #263980;
+      transition: all 1.1s;
+    }
+
+
+  }
+
+  /*end of navbar*/
+
+
+}
+
+/*end of banner*/
+
+#Our-Trainer {
+  .m {
+    width: 177px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+  }
+
+}
+
+/*end of Our-Trainer*/
+
+#Our-Service {
+  .card-title {
+    border-bottom: solid #733838 12px;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    background: #2277b8;
+  }
+}
+
+/*end of Our-Service*/
+
+#event {
+  .image {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+/*end of event*/
+
+#post {
+
+  .post {
+    background: black;
+    color: red;
+  }
+}
+
+/*end of post*/
+
