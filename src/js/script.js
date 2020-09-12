@@ -59,6 +59,8 @@ $('document').ready(function () {
         $('div .page-dev').not($(this).next());
     });/*end of click function show category meu */
 
+    $('html').niceScroll({interval: 9000});/*end of niceScroll*/
+
 });//end of Document ready function
 
 $(window).on('load', function () {
