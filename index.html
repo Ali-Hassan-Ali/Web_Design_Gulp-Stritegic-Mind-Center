@@ -102,7 +102,9 @@
 <section id="banner">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white font-weight-bold pl-2" href="/">STRATEGIC MIND</a>
+        <!--        <div class="text"> funnyText.js</div>-->
+        <a id="ali" class="navbar-brand text-white font-weight-bold pl-2 mySelector" href="/">STRATEGIC MIND</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -112,11 +114,13 @@
             <ul class="navbar-nav mr-auto ">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active wow bounceInUp" data-wow-duration="6s" href="/">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About
                     </a>
@@ -129,12 +133,13 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#Article">Public Calender <span
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#Article">Public Calender <span
                             class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Training Course
                     </a>
@@ -142,13 +147,14 @@
                         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-info">Register
                             Courses</a>
                         <a class="dropdown-item" href="AllCourse.html">All Course</a>
-                        <a class="dropdown-item" href="#">Training Program</a>
-                        <a class="dropdown-item" href="#">Free Course</a>
+                        <!--                        <a class="dropdown-item" href="#">Training Program</a>-->
+                        <!--                        <a class="dropdown-item" href="#">Free Course</a>-->
                     </div>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         knowledge
                     </a>
@@ -159,18 +165,27 @@
                 </li>
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="#footer">contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#footer">contact Us <span
+                            class="sr-only">(current)</span></a>
                 </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="Profile.html">Profile<span
+                            class="sr-only">(current)</span></a>
+                </li>
+
             </ul>
             <ul class="navbar-nav ml-auto">
-                <a href="login.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user"></i> Login</a>
-                <a href="Register.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user-plus"></i>
+                <a href="login.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user text"></i> Login</a>
+                <a href="Register.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user-plus"></i>
                     Register</a>
             </ul>
         </div>
     </nav><!--end of navbar-->
 
-    <div class="skitter-large-box">
+    <div class="skitter-large-box wow bounceIn" data-wow-duration="6s">
         <div class="skitter skitter-large with-dots">
             <ul>
                 <li><a href="#cubeRandom"><img src="./dist/images/skitter/111.png" class="cubeRandom"/></a>

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Home Page</title>
+    <!--Link Icon Title-->
+    <!--    <link href="img/favicon.png" rel="icon">-->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="dist/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+
+    <!--font google-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700" rel="stylesheet">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+    <!-- vendor min  css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/vendor.min.css">
+
+    <!-- min styles -->
+    <link rel="stylesheet" type="text/css" href="dist/css/min.min.css">
+</head>
+<body>
+<!--loading pages-->
+<div class="ff d-flex text-center m-auto align-items-center">
+
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+        Loading.....
+    </div>
+
+</div><!--end of loading-->
+
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal modal-info fade" id="modal-Trainer">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<section id="banner">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <!--        <div class="text"> funnyText.js</div>-->
+        <a id="ali" class="navbar-brand text-white font-weight-bold pl-2 mySelector" href="/">STRATEGIC MIND</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse col-auto " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+
+                <li class="nav-item">
+                    <a class="nav-link active wow bounceInUp" data-wow-duration="6s" href="#">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#about">About Us</a>
+                        <a class="dropdown-item" href="#Our-Service">Our Service</a>
+                        <!--                        <a class="dropdown-item" href="#">Our Customers</a>-->
+                        <a class="dropdown-item" href="#Event">Our Event</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#Article">Public Calender <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Training Course
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-info">Register
+                            Courses</a>
+                        <a class="dropdown-item" href="AllCourse.html">All Course</a>
+                        <a class="dropdown-item" href="#">Training Program</a>
+                        <a class="dropdown-item" href="#">Free Course</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        knowledge
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Tools</a>
+                        <a class="dropdown-item" href="video.html">Video Clies</a>
+                    </div>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#footer">contact Us <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#footer">Profile<span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <a href="login.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user text"></i> Login</a>
+                <a href="Register.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user-plus"></i>
+                    Register</a>
+            </ul>
+        </div>
+    </nav><!--end of navbar-->
+
+</section> <!--end of banner section-->
+
+<section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card m-b-30">
+                    <div class="card-header bg-white">
+                        <h2 class="card-title text-black mb-0 text-center">Social Profile</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="xp-social-profile">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex align-items-center justify-content-center text-center">
+                                        <img src="./dist/images/avatar.png"
+                                             alt="user-profile"
+                                             class="rounded-circle img-fluid">
+                                    </div><!--align-items-center-->
+                                </div><!--end row-->
+                            </div><!--end row-->
+
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <h5 class="my-1 text-black">Name : Ali Hassan</h5>
+                                    <p class="mb-3 text-muted">Email: ALiHassan@gmail.com</p>
+                                    <p class="text-muted">Lifestyle coach and photographer <br>delivering best
+                                        images only...</p>
+                                </div><!--end col-12-->
+                            </div><!--end row-->
+
+                            <div class="row text-center">
+
+                                <div class="col-4 pt-3">
+                                    <a class="btn btn-primary" href="#" data-toggle="modal"
+                                       data-target="#modal-info">Register
+                                        Courses</a>
+                                </div><!--end col-4-->
+
+                                <div class="col-4 pt-3">
+                                    <a class="btn btn-primary" href="#" data-toggle="modal"
+                                       data-target="#modal-Trainer">Register
+                                        Trainer</a>
+                                </div><!--end col-4-->
+
+                                <div class="col-4 pt-3">
+                                    <h5 class="text-black my-1">552</h5>
+                                    <p class="mb-0 text-muted">Likes</p>
+                                </div><!--end col-4-->
+
+                            </div><!--end row-->
+
+                        </div><!--end card-body-->
+
+                    </div><!--end card-->
+
+                </div><!--end col-md-12-->
+            </div><!--end row-->
+        </div><!--end container-->
+</section><!--end section-->
+
+<footer id="table-book" class="bg-light pt-0 p-4 pb-0">
+
+    <h2 class="text-center pb-4">BOOK TEACHER</h2>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Responsive Hover Table</h3>
+
+                        <div class="box-tools">
+                            <div class="input-group input-group-sm" style="width: 350px;">
+                                <input type="text" name="table_search" class="form-control pull-right"
+                                       placeholder="Search">
+
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-primary btn-sm ml-2"><i
+                                            class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.box-header -->
+
+                    <div class="box-body table-responsive no-padding">
+                        <table class="table table-hover" onscroll="">
+                            <tbody>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name-Teacher</th>
+                                <th>Name-Book</th>
+                                <th>Action</th>
+                                <th>Date</th>
+                                <th>Description</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>John Doe</td>
+                                <td>jobs</td>
+                                <td>
+                                    <a href="" class="btn btn-info"><i class="fa fa-eye"></i> </a>
+                                    <a href="" class="btn btn-primary"><i class="fa fa-download"></i> </a>
+                                </td>
+                                <td>11-7-2014</td>
+                                <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- /.box-body -->
+                </div><!-- /.box -->
+
+            </div><!--end of col-12-->
+
+        </div><!--end of row-->
+
+    </div><!--end of container-->
+
+</footer>   <!--end of footer-->
+
+<footer id="footer" class="bg-dark text-white pt-0 p-4 pb-0">
+
+    <h2 class="text-center pb-4">CONTACT US</h2>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 wow bounceInLeft" data-wow-duration="4s"><h3><i class="fa fa-eye mr-2"></i>Strategic
+                Mind</h3>
+                <p>Strategic Mind Center was founded in 2020. Strategic Center provides More than 80 Training
+                    Programs in strategic management techniques, Business management &amp; HR, Capacity Building and
+                    Quality management system for people development and process improvement. training have allowed
+                    us to continuously improve our understanding, thus able to deliver services that would exceed
+                    our customer expectation. By providing training innovation and leading edge solutions, to
+                    improve our customer’s business process and enhance their position amidst the competitive
+                    environment.</p>
+            </div><!--end of col-->
+
+
+            <div class="col-lg-6 col-md-6 footer-contact wow bounceInRight" data-wow-duration="4s">
+                <h4>Contact Us</h4>
+                <p>SUDAN - KHARTOUM</p>
+                <p><i class="fa fa-map-marker mr-2"></i>Mohammed Najeeb Street <br>
+                    Weast Ibn Sina hospital , Moluk building <br>
+                    third flour , apartement 2 <br>
+                    <strong><i class="fa fa-phone mr-2"></i> Phone:</strong> +249 0912905226 - +249 123853358<br>
+                    <strong><i class="fa fa-envelope mr-2"></i> Email:</strong> strategic2020@gmail.com<br>
+                    <strong><i class="fa fa-whatsapp mr-2"></i> Whatsapp:</strong> +249 123853358<br><br>
+                </p>
+
+            </div><!--end of col-->
+
+        </div><!--end of row-->
+
+    </div><!--end of container-->
+
+</footer>   <!--end of footer-->
+
+<section class="bg-primary text-center p-3">
+    <a href="" class="text-white mr-2"><i class="fa fa-facebook fa-1x fa-2x wow flip" data-wow-duration="5s"></i></a>
+    <a href="" class="text-white mr-2"><i class="fa fa-youtube-play fa-2x wow flip" data-wow-duration="5s"></i></a>
+    <a href="" class="text-white mr-2"><i class="fa fa-twitter fa-2x wow flip" data-wow-duration="5s"></i></a>
+</section><!--end of mulite meduy-->
+
+
+<script src="dist/js/jquery-3.3.1.min.js"></script>
+
+<!-- bootstrap -->
+<script src="dist/js/bootstrap.min.js"></script>
+
+<!-- vendor  js -->
+<script src="dist/js/vendor.min.js"></script>
+
+<!-- min scripts -->
+<script src="dist/js/main.min.js"></script>
+
+<script>
+    wow = new WOW(
+        {
+            // boxClass:     'wow',      // default
+            // animateClass: 'animated', // default
+            offset: 3,          // default
+            mobile: true,       // default
+            live: true        // default
+            // data-wow-iteration="2" /*Loop*/
+        },
+    );
+    wow.init();
+</script>
+
+</body>
+</html>

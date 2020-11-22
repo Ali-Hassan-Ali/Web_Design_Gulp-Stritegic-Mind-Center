@@ -29,10 +29,68 @@
 </head>
 <body>
 
+<div class="modal modal-info fade" id="modal-info">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold">Register Course</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <label>images</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <label>Number ID</label>
+                <div class="form-group">
+                    <input type="file">
+                </div>
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select class="form-control">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                        <option>Course 4</option>
+                        <option>Course 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>Online Course</option>
+                        <option>No Online Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" class="form-control" placeholder="enter Age">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary"><i class="fa fa-plus"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
 <section id="banner">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white font-weight-bold pl-2" href="/">STRATEGIC MIND</a>
+        <!--        <div class="text"> funnyText.js</div>-->
+        <a id="ali" class="navbar-brand text-white font-weight-bold pl-2 mySelector" href="/">STRATEGIC MIND</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,42 +100,47 @@
             <ul class="navbar-nav mr-auto ">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active wow bounceInUp" data-wow-duration="6s" href="/">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#about">About Us</a>
                         <a class="dropdown-item" href="#Our-Service">Our Service</a>
-                        <a class="dropdown-item" href="#">Our Customers</a>
+                        <!--                        <a class="dropdown-item" href="#">Our Customers</a>-->
                         <a class="dropdown-item" href="#Event">Our Event</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./Articles.html">Public Calender <span
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#Article">Public Calender <span
                             class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Training Course
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Register Courses</a>
-                        <a class="dropdown-item" href="#">All Course</a>
-                        <a class="dropdown-item" href="#">Training Program</a>
-                        <a class="dropdown-item" href="#">Free Course</a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-info">Register
+                            Courses</a>
+                        <a class="dropdown-item" href="AllCourse.html">All Course</a>
+                        <!--                        <a class="dropdown-item" href="#">Training Program</a>-->
+                        <!--                        <a class="dropdown-item" href="#">Free Course</a>-->
                     </div>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-duration="6s" href="#"
+                       id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         knowledge
                     </a>
@@ -88,13 +151,21 @@
                 </li>
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="#footer">contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="#footer">contact Us <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link wow bounceInLeft" data-wow-duration="6s" href="Profile.html">Profile<span
+                            class="sr-only">(current)</span></a>
                 </li>
 
             </ul>
             <ul class="navbar-nav ml-auto">
-                <a href="login.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user"></i> Login</a>
-                <a href="Register.html" class="mr-3 btn btn-outline-light"><i class="fa fa-user-plus"></i>
+                <a href="login.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user text"></i> Login</a>
+                <a href="Register.html" class="mr-3 btn btn-outline-light wow bounceIn" data-wow-duration="6s"><i
+                        class="fa fa-user-plus"></i>
                     Register</a>
             </ul>
         </div>
@@ -102,17 +173,50 @@
 
 </section> <!--end of banner section-->
 
-<section id="All-Course">
-    <h2 class="text-center pt-3">All Course</h2>
-    <div class="text-center min-course text-white">
-        Strategic Management
-    </div><!--end of container-->
-    <div class="page-dev ">
-        <h4 class="text-center p-2 mb-0">Strategic Planning For Public Sector</h4>
-        <h4 class="text-center p-2 mb-0">Scenarios- Based Planning</h4>
-        <h4 class="text-center p-2 mb-0">Money Making</h4>
-    </div><!--end of pages-dev-->
-</section><!--end of section course-->
+<!--<section id="All-Course">-->
+<!--    <h2 class="text-center pt-3">All Course</h2>-->
+<!--    <div class="text-center min-course text-white">-->
+<!--        Strategic Management-->
+<!--    </div>&lt;!&ndash;end of container&ndash;&gt;-->
+<!--    <div class="page-dev ">-->
+<!--        <h4 class="text-center p-2 mb-0">Strategic Planning For Public Sector</h4>-->
+<!--        <h4 class="text-center p-2 mb-0">Scenarios- Based Planning</h4>-->
+<!--        <h4 class="text-center p-2 mb-0">Money Making</h4>-->
+<!--    </div>&lt;!&ndash;end of pages-dev&ndash;&gt;-->
+<!--</section>&lt;!&ndash;end of section course&ndash;&gt;-->
+
+<section>
+    <div class="container">
+        <h2>Strategic Management</h2>
+        <table class="table table-hover">
+
+            <thead>
+            <tr>
+                <th>#id</th>
+                <th>Name Course</th>
+                <th>Time Course</th>
+                <th>scour</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Strategic Planning For Public Sector</td>
+                <td>30 day</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Money Making</td>
+                <td>20 day</td>
+                <td>$40</td>
+            </tr>
+            </tbody>
+
+        </table><!-- end of table -->
+    </div>
+</section>
+
 
 <footer id="footer" class="bg-dark text-white p-4 pb-0">
 
