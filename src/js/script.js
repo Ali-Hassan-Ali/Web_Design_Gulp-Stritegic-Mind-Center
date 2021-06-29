@@ -5,23 +5,23 @@ $("document").ready(function () {
             $(this).addClass("active")
     }),
 
-        $("a").click(function () {
-            var e = $(this).attr("href");
-            $("html, body").animate({scrollTop: $(e).offset().top}, 1e3);
-        }),
+    $("a").click(function () {
+        var e = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(e).offset().top}, 1e3);
+    }),
 
-        $(document).ready(function () {
-            $(".skitter-large").skitter({numbers: !0, dots: !1});
-        }),/*end of document ready*/
+    $(document).ready(function () {
+        $(".skitter-large").skitter({numbers: !0, dots: !1});
+    }),/*end of document ready*/
 
-        $(".owl-poster").owlCarousel({
-            loop: !0,
-            dots: !1,
-            nav: !1,
-            stagePadding: 20,
-            margin: 10,
-            responsive: {0: {items: 1}, 600: {items: 2}, 500: {items: 2}, 900: {items: 3}, 1e3: {items: 4}}
-        });/*end of owl-poster*/
+    $(".owl-poster").owlCarousel({
+        loop: !0,
+        dots: !1,
+        nav: !1,
+        stagePadding: 20,
+        margin: 10,
+        responsive: {0: {items: 1}, 600: {items: 2}, 500: {items: 2}, 900: {items: 3}, 1e3: {items: 4}}
+    });/*end of owl-poster*/
 
     $(".owl-trainer").owlCarousel({
         loop: !0,
